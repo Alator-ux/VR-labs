@@ -12,12 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: iPhone
   m_EditorClassIdentifier: 
-  features:
-  - {fileID: -6311865091774270602}
+  features: []
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -295,9 +291,6 @@ MonoBehaviour:
   - {fileID: 2316775424616146661}
   - {fileID: -5611916350011621528}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -668,7 +661,6 @@ MonoBehaviour:
   - {fileID: 5007098057516315081}
   - {fileID: 1727173055597128861}
   - {fileID: -8732650259347650135}
-  - {fileID: -1045477608208144985}
   - {fileID: 4025793028449617705}
   - {fileID: -381482547018402083}
   - {fileID: 5447152813868908602}
@@ -677,11 +669,7 @@ MonoBehaviour:
   - {fileID: -4731438336562001402}
   - {fileID: 4135229692886101830}
   - {fileID: 2220871646205782247}
-  - {fileID: -8208133250309909575}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -918,7 +906,6 @@ MonoBehaviour:
   - {fileID: -7492839480718335507}
   - {fileID: 9020184986697725232}
   - {fileID: 7497383018830012468}
-  - {fileID: 497730875954887731}
   - {fileID: 7223869130901287869}
   - {fileID: -3884623058556172510}
   - {fileID: -5190053797094401786}
@@ -926,11 +913,7 @@ MonoBehaviour:
   - {fileID: 4743943348186933471}
   - {fileID: -6368128839055358620}
   - {fileID: -7581625304019661375}
-  - {fileID: 934217401120462681}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -1554,7 +1537,6 @@ MonoBehaviour:
   - {fileID: 8905368366970065329}
   - {fileID: -32235343128412357}
   - {fileID: -8128878415866299878}
-  - {fileID: -6476805003437799892}
   - {fileID: 2507977727062586280}
   - {fileID: 212745919841223148}
   - {fileID: 6549459535310700055}
@@ -1562,11 +1544,7 @@ MonoBehaviour:
   - {fileID: 2785801254050174073}
   - {fileID: -5191125240872322840}
   - {fileID: -5644509607064669464}
-  - {fileID: -6349773405149355149}
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -1784,12 +1762,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: WebGL
   m_EditorClassIdentifier: 
-  features:
-  - {fileID: -3090556146284834830}
+  features: []
   m_renderMode: 1
-  m_autoColorSubmissionMode: 1
-  m_colorSubmissionModes:
-    m_List: 00000000
   m_depthSubmissionMode: 0
   m_optimizeBufferDiscards: 0
   m_symmetricProjection: 0
@@ -1928,7 +1902,6 @@ MonoBehaviour:
     enabled: 1
   forceRemoveInternetPermission: 1
   symmetricProjection: 0
-  foveatedRenderingApi: 0
   systemSplashScreen: {fileID: 0}
   optimizeBufferDiscards: 1
   lateLatchingMode: 0
