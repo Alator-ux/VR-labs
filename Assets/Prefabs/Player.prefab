@@ -1379,6 +1379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1802174466125046379}
+  canvasGroup: {fileID: 0}
   transitionDelayTime: 1
 --- !u!1 &4087690113068497089
 GameObject:
@@ -2152,7 +2153,6 @@ MonoBehaviour:
   usedKeysText: {fileID: 3216997710798144974}
   timerText: {fileID: 8417350538159626814}
   toggleCanvasButtonReference: {fileID: -4545444707946980380, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  secondsLeft: 30
 --- !u!1 &5802428230380010560
 GameObject:
   m_ObjectHideFlags: 0

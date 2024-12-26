@@ -14,8 +14,7 @@ public class HandCanvasController : MonoBehaviour
     TextMeshProUGUI timerText;
     [SerializeField]
     InputActionReference toggleCanvasButtonReference;
-    [SerializeField]
-    float secondsLeft;
+    
 
     HashSet<string> usedKeysIds;
     Key[] allKeys;
@@ -37,6 +36,10 @@ public class HandCanvasController : MonoBehaviour
         toggleCanvasButtonReference.action.performed += ToggleCanvas;
 
         canvas.enabled = false;
+
+        var timer = Timer.Instance;
+        timerText.text = $"Осталось времени: {timer.SecondsLeft}";
+        timer.EverySecondAction += () => { timerText.text = $"Осталось времени: {timer.SecondsLeft}"; };
     }
 
     void UpdateUsedKeysText(Key key)
@@ -54,10 +57,4 @@ public class HandCanvasController : MonoBehaviour
         canvas.enabled = !canvas.enabled;
         //canvas.gameObject.SetActive(!canvas.gameObject.activeSelf);
    }
-
-    private void FixedUpdate()
-    {
-        secondsLeft = Mathf.Max(secondsLeft - Time.deltaTime, 0);
-        timerText.text = $"Осталось времени: {(int)Mathf.Round(secondsLeft)}";
-    }
 }

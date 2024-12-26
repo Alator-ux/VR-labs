@@ -5,7 +5,7 @@ using UnityEngine;
 public class GrabController : MonoBehaviour
 {
     [SerializeField]
-    GameObject GrabLocomotionObject;
+    GameObject GrabLocomotionObject, vignetteObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +15,7 @@ public class GrabController : MonoBehaviour
         Debug.Log("Collision enter");
         if (collider.gameObject.CompareTag("Player"))
         {
+            vignetteObject.SetActive(true);
             GrabLocomotionObject.SetActive(true);
         }
     }
@@ -24,6 +25,7 @@ public class GrabController : MonoBehaviour
         Debug.Log("Collision exit");
         if (collider.gameObject.CompareTag("Player"))
         {
+            vignetteObject.SetActive(false);
             GrabLocomotionObject.SetActive(false);
         }
     }

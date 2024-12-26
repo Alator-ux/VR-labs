@@ -32,10 +32,12 @@ public class PlayerController : MonoBehaviour
     {
         SetStatusValue(moveLocomotionPref, value);
         move.SetActive(value);
+        Settings.Instance.moveLocomotion = value;
     }
     public void SetTeleportationLocomotionStatus(bool value)
     {
         SetStatusValue(teleportationLocomotionPref, value);
         teleportation.SetActive(value);
+        Settings.Instance.teleportationLocomotion = value;
     }
 }

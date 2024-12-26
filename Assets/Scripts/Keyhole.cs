@@ -119,5 +119,7 @@ public class Keyhole : XRSocketInteractor
 
         Debug.Log("unlocked");
         Locked = false;
+
+        Timer.Instance.StopTimer();
     }
 }
